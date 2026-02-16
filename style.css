@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
+
+* {
+    margin: 0;
+}
+
+#home-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: inherit;
+    flex-direction: row;
+
+    gap: 1rem;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: teal;
+
+    height: 10vh;
+    width: 100vw;
+}
+
+.header__section {
+    display: inherit;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 80%;
+    width: 10%;
+}
+
+.header__section:hover {
+    cursor: pointer;
+
+    border: 1px transparent white;
+    border-radius: 3rem;
+    
+    background-color: rgb(41, 136, 136);
+
+    transition: 1s background-color;
+}
+
+.content {
+    display: inherit;
+
+    height: 80vh;
+    width: 100vw;
+
+    background-color: rgb(117, 179, 179);
+
+    overflow-y: scroll;
+}
+
+
+.content__section {
+    display: inherit;
+    
+    gap: 2rem;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 50%;
+    width: 100%;
+}
+
+.content__section__photo {
+    display: inherit;
+
+    border: 1px transparent white;
+    border-radius: 100%;
+
+    height: 80%;
+    width: 18%;
+}
+
+.rounded-image {
+    border: 1px transparent; border-radius: 100%;
+}
+
+.content__section__info {
+    display: inherit;
+    flex-direction: column;
+
+    gap: 2rem;
+
+    justify-content: center;
+
+    height: 100%;
+    width: 70%;
+}
+
+.footer {
+    display: inherit;
+    flex-direction: row;
+
+    justify-content: center;
+    background-color: teal;
+
+    height: 10vh;
+    width: 100vw;
+}
+
+.footer__section {
+    display: inherit;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+}
+
+.rubik-marker-hatch-regular {
+    color: white;
+    font-family: "Rubik Marker Hatch", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 1px 1px 1px black;
+
+}
+
+.normal-font {
+    color: white;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px black;
+}
