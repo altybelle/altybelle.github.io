@@ -4,38 +4,115 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
+	<script src="scripts.js"></script>
 	<title>Portfólio</title>
 </head>
 <body>
 	<div id="home-page">
-		<div class="header">
+		<div class="header row">
 			<div class="header__section">
-				<h2 class="rubik-marker-hatch-regular">Sobre mim</h2>
+				<h2 class="rubik-marker-hatch-regular">
+					<a href="#sobre">Sobre mim</a>
+				</h2>
 			</div>
 			<div class="header__section">
-				<h2 class="rubik-marker-hatch-regular">Portifólio</h2>
+				<h2 class="rubik-marker-hatch-regular">
+					<a href="#portfolio">Portifólio</a>
+				</h2>
 			</div>
 			<div class="header__section">
-				<h2 class="rubik-marker-hatch-regular">Contato</h2>
+				<h2 class="rubik-marker-hatch-regular">
+					<a href="#contato">Contato</a>
+				</h2>
 			</div>
 		</div>
-		<div class="content">
-			<div class="content__section">
+		<div class="content column" style="background-image: url('/assets/media/background.webp'); background-repeat: no-repeat; background-size: 100% auto;">
+			<section class="content__section row" id="sobre">
 				<div class="content__section__photo">
 					<img class="rounded-image" src="assets/media/photo.webp" alt="Altamiro comendo pão">
 				</div>
-				<div class="content__section__info">
+				<div class="content__section__info column">
 					<h1 class="rubik-marker-hatch-regular">Quem sou eu?</h1>
 					<p class="normal-font">
-						Me graduei no curso de Bacharelado em Ciência da Computação pela Universidade Federal de Viçosa no ano de 2026. Tenho experiência em Engenharia e Desenvolvimento de Software, tendo atuado como
-						Desenvolvedor Full-Stack em diversos projetos inovadores, dentro e fora do ambiente acadêmico.
+						Graduado em <strong>Ciência da Computação pela Universidade Federal de Viçosa (2026)</strong>, construí uma trajetória sólida em Engenharia de Software, atuando no desenvolvimento de soluções robustas tanto no âmbito acadêmico quanto no mercado.
 					</p>
 					<p class="normal-font">
-						Tenho vasta experiência com as linguagens de programação C#, Java, JavaScript e Python, sendo capaz de criar soluções
-						utilizando variados frameworks, como .NET Core, Spring, NestJS, Django e Flask. 
+						Minha stack tecnológica é diversificada e versátil, com fluência em <strong>C#, Java, JavaScript e Python</strong>. Transito com naturalidade por frameworks modernos como <strong>.NET Core, Spring, NestJS, Django e Flask</strong>, aliando essas competências ao desenvolvimento de interfaces dinâmicas com <strong>React e Angular</strong>, bem como aplicações desktop via <strong>Qt</strong> e <strong>Windows Forms</strong>. Complemento essa expertise com uma gestão proficiente de bancos de dados relacionais e não relacionais.
+					</p>
+					<p class="normal-font">
+						Além do desenvolvimento core, possuo uma visão integrada do ciclo de vida do software, aplicando práticas de <strong>DevOps e CI/CD (GitHub Actions, Terraform)</strong>. Meu perfil técnico se expande ainda para a análise de dados e Inteligência Artificial, com vivência em Pandas e projetos focados em Processamento de Linguagem Natural (NLP).
 					</p>
 				</div>
-			</div>
+			</section>
+			<section class="content__section column" id="portfolio">
+				<div class="content__section__title">
+					<h1 class="rubik-marker-hatch-regular">Portfólio</h1>
+				</div>
+
+				<div class="content__section__item row">
+					<div class="content__section__item__icon">
+						<img class="rounded-image" src="assets/media/setapp.webp" alt="Logo SetApp">
+					</div>
+					<div class="content__section__item__text">
+						<p class="normal-font">
+							<strong>SetApp UFV (Início de carreira):</strong> Iniciei minha trajetória profissional na Empresa Júnior de Ciência da Computação da UFV-Florestal. 
+							Atuei como desenvolvedor no projeto <em>ReciClick</em>, uma solução mobile em <strong>Flutter</strong> encomendada pelo Instituto de Referência em Resíduos (IRR). 
+							O aplicativo teve como foco o incentivo à coleta seletiva e a gestão de resíduos no município de Contagem/MG.
+						</p>
+					</div>
+				</div>
+
+				<div class="content__section__item row">
+					<div class="content__section__item__icon">
+						<img class="rounded-image" src="assets/media/dti.webp" alt="Logo DTI">
+					</div>
+					<div class="content__section__item__text">
+						<p class="normal-font">
+							<strong>DTI Digital (Desenvolvimento de Software):</strong> Ingressei como estagiário e fui efetivado para atuar em projetos de grande porte. 
+							Trabalhei no desenvolvimento de soluções para a <em>Pottencial Seguradora</em> (insurtech) e integrei squads internacionais atendendo a <em>Hill's Pet Nutrition</em> 
+							(subsidiária da Colgate-Palmolive), colaborando diretamente com times nos Estados Unidos e Canadá.
+						</p>
+					</div>
+				</div>
+
+				<div class="content__section__item row">
+					<div class="content__section__item__icon">
+						<img class="rounded-image" src="assets/media/receita.webp" alt="Logo A5M">
+					</div>
+					<div class="content__section__item__text">
+						<p class="normal-font">
+							<strong>A5M Tecnologia (Empreendedorismo):</strong> Fundei minha própria empresa de tecnologia para oferecer consultoria e desenvolvimento de software personalizado. 
+							Gerenciei o ciclo completo de projetos para pequenas e médias empresas, conciliando a gestão do negócio com minhas atividades acadêmicas e atuação corporativa, 
+							o que fortaleceu minha capacidade de autogestão e entrega.
+						</p>
+					</div>
+				</div>
+
+				<div class="content__section__item row">
+					<div class="content__section__item__icon">
+						<img class="rounded-image" src="assets/media/mymobiconf.webp" alt="Logo myMobiconf">
+					</div>
+					<div class="content__section__item__text">
+						<p class="normal-font">
+							<strong>NESPeD (Pesquisa e Desenvolvimento):</strong> Atuei como bolsista de Iniciação Científica no desenvolvimento do <em>myMobiconf</em>, 
+							um sistema colaborativo de gestão de eventos. Fui responsável pelo desenvolvimento do <strong>backend</strong>, atuando também no <strong>frontend</strong>, administração de servidores 
+							e implementação de rotinas de DevOps (CI/CD), garantindo a estabilidade e escalabilidade da plataforma.
+						</p>
+					</div>
+				</div>
+			</section>
+			<section class="content__section column" id="contato">
+				<div class="content__section__big__item row center ">
+					<div class="content__section__item__icon">
+						<img class="rounded-image clickable" src="assets/icons/instagram.webp" alt="Logo Instagram" onclick="contact('instagram')">
+					</div>
+					<div class="content__section__item__icon">
+						<img class="rounded-image clickable" src="assets/icons/linkedin.webp" alt="Logo LinkedIn" onclick="contact('linkedin')">
+					</div>
+					<div class="content__section__item__icon">
+						<img class="rounded-image clickable" src="assets/icons/github.webp" alt="Logo GitHub" onclick="contact('github')">
+					</div>
+			</section>
 		</div>
 		<div class="footer">
 			<div class="footer__section">
